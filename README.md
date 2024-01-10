@@ -1,6 +1,6 @@
 # English README　[Jump to Japanese Version](#japanese)
 
-# Birthday Reminder Web Application
+# Portofolio Stock Simulator Web Application
 
 ## About the project
 
