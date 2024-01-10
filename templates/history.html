@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Transaction History
+{% endblock %}
+
+{% block main %}
+<table>
+    <thead>
+        <tr>
+            <th>Transaction Timestamp</th>
+            <th>Transaction Type</th>
+            <th>Stocks Symbol</th>
+            <th>Company Name</th>
+            <th>Number of Share</th>
+            <th>Share Buy Price</th>
+            <th>Share Sell Price</th>
+            <th>Total (Shares Numb * Price)</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for history in history %}
+        <tr>
+            <td>{{ history.date }}</td>
+            <td>{{ history.transaction_type }}</td>
+            <td>{{ history.share_symbol }}</td>
+            <td>{{ history.company_name }}</td>
+            <td>{{ history.shares_amount }}</td>
+            <td>{{ history.share_buy_price | usd }}</td>
+            <td>{{ history.share_sell_price | usd }}</td>
+            <td>{{ history.total_cost | usd }}</td>
+        </tr>
+        {% endfor %}
+        <tfoot>
+        <tr>
+            <td colspan = "7"><b><u>CASH IN BANK</u> 🠖</b></td>
+            <td><b style="color:green;">{{cash | usd}}</b></td>
+        </tr>
+        </tfoot>
+    </tbody>
+</table>
+{% endblock %}

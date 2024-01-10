@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index - Portofolio
+{% endblock %}
+
+{% block main %}
+
+<table>
+    <thead>
+        <tr>
+            <th>Stocks Symbol</th>
+            <th>Company Name</th>
+            <th>Number of Share</th>
+            <th>Share price</th>
+            <th>Total (Shares Numb * Price)</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for portofolio in portofolio %}
+        <tr>
+            <td>{{ portofolio.share_symbol }}</td>
+            <td>{{ portofolio.company_name }}</td>
+            <td>{{ portofolio.shares_amount }}</td>
+            <td>{{ portofolio.share_price | usd }}</td>
+            <td>{{ portofolio.total_cost | usd }}</td>
+        </tr>
+        {% endfor%}
+        <tr>
+            <td colspan = "4"><b><u>CASH IN BANK</u> 🠖</b></td>
+            <td><b style="color:green;">{{cash | usd}}</b></td>
+        </tr>
+        <tfoot>
+        <tr>
+            <td colspan = "4"><b><u>GRAND TOTAL (BANK + TOTAL SHARES PRICES)</u> 🠖</b></td>
+            <td><b style="color:blue;">{{grand_total | usd}}</b></td>
+        </tr>
+        </tfoot>
+    </tbody>
+</table>
+{% endblock %}
