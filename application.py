@@ -1,6 +1,7 @@
 import os
 # export API_KEY=pk_56de14d7880c468eb75d2759bccce302
 #or export API_KEY=pk_058474deae3b4cf2bae811787b46caa3
+# Latest API_KEY=pk_38cb223c14ca4f439855d6adee63946b
 # flask run
 from cs50 import SQL
 import sqlalchemy
