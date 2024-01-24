@@ -160,6 +160,72 @@ Enjoy using this stocks simulator!
 1. 株式の略語を探し、株式の数や購入金額を入力します。例：Netflix に興味がある場合、「NFLX」を探します。
 2. 所有しているものを自由に売却することができます。
 
+### スクリーンショット付きの使用例
+
+1. アカウントを登録します。ユーザー名とパスワード。（「Test」と「123」でも良いです）
+
+<br/>
+<p align="center">
+<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/register.png" width="900" alt="登録">
+</p>
+<br/>
+
+2. アカウントでログインします。
+
+<br/>
+<p align="center">
+<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/login.png" width="900" alt="ログイン">
+</p>
+<br/>
+
+3. ログイン後のデフォルトページです。ポートフォリオの概要と初期金額が表示されます。
+
+<br/>
+<p align="center">
+<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/default_sum.png" width="900" alt="ポートフォリオ概要">
+</p>
+<br/>
+
+4. 「Quote」ページでは、株の略称を入力し、その価格を確認します。略称が間違っている場合は機能しません。
+
+<br/>
+<p align="center">
+<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/quote.png" width="900" alt="ログイン">
+</p>
+<br/>
+
+5. 「Buy」ページでは、株の略称と購入する株式の数を入力します。購入できる金額を超えることはできません。
+
+<br/>
+<p align="center">
+<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/buy3_quote.png" width="900" alt="ログイン">
+</p>
+<br/>
+
+6. 購入後、ポートフォリオの概要が更新されます。株式がポートフォリオに追加され、金額が更新されます。
+
+<br/>
+<p align="center">
+<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/sfter_buy.png" width="900" alt="ログイン">
+</p>
+<br/>
+
+7. 「Sell」ページでは、株の略称と売却する株式の数を入力します。所有している株式より多くを売ることはできません。
+
+<br/>
+<p align="center">
+<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/sell_3.png" width="900" alt="ログイン">
+</p>
+<br/>
+
+8. 売却後、ポートフォリオの概要が更新されます。株式がポートフォリオから削除され、金額が更新されます。
+
+<br/>
+<p align="center">
+<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/sell_3.png" width="900" alt="ログイン">
+</p>
+<br/>
+
 ## 理解
 
 - `application.py`: このファイルには Flask ウェブアプリケーションのコードが含まれています。このアプリケーションには POST リクエストと GET リクエストの両方を処理する 1 つのルート（`/`）が含まれています。`/`ルートは GET でリクエストされると`index.html`テンプレートがレンダリングされます。POST でリクエストされた場合、ユーザーは GET を介して再度`/`にリダイレクトされます。
