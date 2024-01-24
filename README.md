@@ -19,7 +19,7 @@ Starting with $10,000 of fake money.
 
 <br/>
 <p align="center">
-<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/register.png" width="700" alt="register">
+<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/register.png" width="900" alt="register">
 </p>
 <br/>
 
@@ -27,7 +27,7 @@ Starting with $10,000 of fake money.
 
 <br/>
 <p align="center">
-<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/login.png" width="700" alt="Login">
+<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/login.png" width="900" alt="Login">
 </p>
 <br/>
 
@@ -35,7 +35,7 @@ Starting with $10,000 of fake money.
 
 <br/>
 <p align="center">
-<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/default_sum.png" width="700" alt="portofolio summary">
+<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/default_sum.png" width="900" alt="portofolio summary">
 </p>
 <br/>
 
@@ -43,7 +43,7 @@ Starting with $10,000 of fake money.
 
 <br/>
 <p align="center">
-<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/quote.png" width="700" alt="Login">
+<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/quote.png" width="900" alt="Login">
 </p>
 <br/>
 
@@ -51,7 +51,7 @@ Starting with $10,000 of fake money.
 
 <br/>
 <p align="center">
-<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/buy3_quote.png" width="700" alt="Login">
+<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/buy3_quote.png" width="900" alt="Login">
 </p>
 <br/>
 
@@ -59,7 +59,7 @@ Starting with $10,000 of fake money.
 
 <br/>
 <p align="center">
-<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/sfter_buy.png" width="700" alt="Login">
+<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/sfter_buy.png" width="900" alt="Login">
 </p>
 <br/>
 
@@ -67,7 +67,7 @@ Starting with $10,000 of fake money.
 
 <br/>
 <p align="center">
-<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/sell_3.png" width="700" alt="Login">
+<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/sell_3.png" width="900" alt="Login">
 </p>
 <br/>
 
@@ -75,7 +75,7 @@ Starting with $10,000 of fake money.
 
 <br/>
 <p align="center">
-<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/sell_3.png" width="700" alt="Login">
+<img src="https://github.com/Jer-B/jer-b.github.io/blob/main/assets/code_img/finance/sell_3.png" width="900" alt="Login">
 </p>
 <br/>
 
